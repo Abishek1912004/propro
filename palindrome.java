@@ -15,4 +15,10 @@ class palindrome
         int c=n*n;
        System.out.println(c);
     }
+
+    public static void add(int n)
+    {
+        int c=n+n;
+       System.out.println(c);
+    }
 }
