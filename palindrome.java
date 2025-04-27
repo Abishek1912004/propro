@@ -1,7 +1,4 @@
 package propro;
-
-
-
 import java.util.*;
 
 class palindrome
@@ -10,10 +7,10 @@ class palindrome
     {
        Scanner sc = new Scanner(System.in);
        int n = sc.nextInt();
-       multi(n); // Now you can call it because both are static
+       multi(n); 
     }
 
-    public static void multi(int n) // Add static here
+    public static void multi(int n) 
     {
         int c = n * n;
         System.out.println(c);
