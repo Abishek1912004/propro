@@ -14,5 +14,4 @@ class palindrome
     {
         int c = n + n;
         System.out.println(c);
-    }
 }
